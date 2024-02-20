@@ -23,10 +23,7 @@ const FoodList = () => {
 					items.map(item => {
 						return <FoodItem
 							key={item.id}
-							image={item.image}
-							name={item.name}
-							price={item.price}
-							description={item.description}
+							meal={item}
 						/>;
 					})}
 			</ul>
